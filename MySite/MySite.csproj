@@ -3,14 +3,14 @@
 		<TargetFramework>net8.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
-		<ServiceWorkerAssetsManifest>service-worker-assets.js</ServiceWorkerAssetsManifest>
-		<RunAOTCompilation>false</RunAOTCompilation>
+		<!--<RunAOTCompilation>true</RunAOTCompilation>-->
+		<!--<PublishAot>true</PublishAot>-->
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0-preview.2.23153.2" />
-		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0-preview.2.23153.2" PrivateAssets="all" />
-		<PackageReference Include="MudBlazor" Version="6.2.1-dev3" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0-preview.3.23177.8" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0-preview.3.23177.8" PrivateAssets="all" />
+		<PackageReference Include="MudBlazor" Version="6.2.1" />
 	</ItemGroup>
 
 	<ItemGroup>
