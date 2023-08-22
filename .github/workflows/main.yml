@@ -16,6 +16,9 @@ jobs:
                   dotnet-version: 8.x
                   include-prerelease: true
 
+            - name: dotnet workload restore
+              run: dotnet workload restore
+            
             - name: Publish .NET Core Project
               run: dotnet publish MySite/MySite.csproj -c Release -o release --nologo
 
