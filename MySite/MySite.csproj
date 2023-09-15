@@ -5,7 +5,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<!--<WasmEnableWebcil>false</WasmEnableWebcil>-->
 		<RunAOTCompilation>true</RunAOTCompilation>
-		<WasmStripILAfterAOT>true</WasmStripILAfterAOT>
+		<!--<WasmStripILAfterAOT>true</WasmStripILAfterAOT>-->
 		<!--<PublishAot>true</PublishAot>-->
 	</PropertyGroup>
 
