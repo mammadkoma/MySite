@@ -6,7 +6,7 @@
 		<!--<WasmEnableWebcil>false</WasmEnableWebcil>-->
 		<!--<RunAOTCompilation>true</RunAOTCompilation>-->
 		<PublishAot>true</PublishAot>
-		<WasmStripILAfterAOT>true</WasmStripILAfterAOT>
+		<!--<WasmStripILAfterAOT>true</WasmStripILAfterAOT>-->
 	</PropertyGroup>
 
 	<ItemGroup>
