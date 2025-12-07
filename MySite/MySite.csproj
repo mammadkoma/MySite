@@ -4,7 +4,7 @@
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<!--<WasmEnableWebcil>false</WasmEnableWebcil>-->
-		<RunAOTCompilation>true</RunAOTCompilation>
+		<!--<RunAOTCompilation>true</RunAOTCompilation>-->
 		<PublishAot>true</PublishAot>
 		<WasmStripILAfterAOT>true</WasmStripILAfterAOT>
 	</PropertyGroup>
